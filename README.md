@@ -22,3 +22,17 @@ Adds functionality to mark the task as completed when clicked and to delete the 
 span.addEventListener('click'): This event listener is added to each task to toggle the completed class, which strikes through the task when clicked.
 
 deleteButton.addEventListener('click'): This event listener is added to each delete button to remove the corresponding task when clicked.
+
+5. How It Works
+When a task is added, it's saved to Local Storage.
+If you reload the page, tasks will be loaded from Local Storage.
+Tasks will retain their completed or pending status across reloads.
+You can delete tasks, and the updated list will be saved in Local Storage.
+
+6. Conclusion
+Now your To-Do List app can:
+
+Add tasks dynamically.
+Mark tasks as completed.
+Delete tasks.
+Persist data using Local Storage, so tasks don't disappear after reloading the page.
